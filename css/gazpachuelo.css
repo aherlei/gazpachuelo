@@ -8,12 +8,12 @@
  *------------------------------------------------------------------------**/
 
  @font-face {
-   font-family: main;
-   src: url();
+   font-family: title;
+   src: url(../fonts/PlaypenSans-Regular.ttf);
  }
  @font-face {
-   font-family: secondary;
-   src: url();
+   font-family: normally;
+   src: url(../fonts/Roboto-Light.ttf);
  }
  
  * {
@@ -27,17 +27,24 @@
     font-size: 1.2em;
     background-image: url(../images/patternDesign.jpg);
     background-size: 50%;
+    font-family: normally;
  }
+ .resalt{
+}
 
- .resalt:hover {
-    color: rosybrown;
+.resalt:hover {
+  color: rosybrown;
  }
-
+ 
  #wrapper {
     width: 80%;
     margin: auto;
     padding: 2%;
     background-color: #F5DEB4;
+ }
+ 
+ #wrapper .resalt {
+   font-family: title;
  }
  .center {
   text-align: center;
